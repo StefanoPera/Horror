@@ -5,6 +5,7 @@ using UnityEngine;
 //feat Ste
 public class RaccKiave : MonoBehaviour
 {
+    public GameObject trigger; 
     public GameObject Kiave;
     public GameObject Geremia;
     public GameObject testo;
@@ -29,8 +30,10 @@ public class RaccKiave : MonoBehaviour
                 testo.SetActive(false);
                 Geremia.SetActive(true);
                 Kiave.SetActive(false);
+                trigger.SetActive(true);
             }
         }
+
 
     }
 

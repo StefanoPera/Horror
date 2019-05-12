@@ -13,7 +13,8 @@ public class apriPorte : MonoBehaviour
         if(Physics.Raycast(transform.position,transform.TransformDirection(Vector3.forward), out hit))
         {
             toTarget = hit.distance;
-            distanceFromTarget = toTarget;
+            distanceFromTarget = hit.distance;
         }
+
     }
 }

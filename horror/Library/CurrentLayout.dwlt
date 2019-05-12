@@ -113,7 +113,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 494}
   m_MaxSize: {x: 14002, y: 14044}
   vertical: 1
-  controlID: 30
+  controlID: 107
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 494}
   m_MaxSize: {x: 14002, y: 14044}
   vertical: 0
-  controlID: 31
+  controlID: 108
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 32
+  controlID: 109
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 33
+  controlID: 110
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -431,24 +431,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 3243}
-      m_SelectedIDs: 488efeff
-      m_LastClickedID: -94648
-      m_ExpandedIDs: 3238fcff0454feffa660feffa860feffa268feffa468feffe66afeff826bfeffd272feffe672fefff672feff6a8afefffe8afeffc296feff7298feff6aebffff1a0101001e010100480101006c0101007a010100
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 82b2feff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: key
+        m_OriginalName: key
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -99378
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -494,9 +494,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -20.035763, y: 0.6312835, z: 20.038136}
+    m_Target: {x: -12.56706, y: 3.3278716, z: 21.521677}
     speed: 2
-    m_Value: {x: -20.035763, y: 0.6312835, z: 20.038136}
+    m_Value: {x: -12.56706, y: 3.3278716, z: 21.521677}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -525,13 +525,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.09869195, y: 0.7778229, z: -0.12609717, w: 0.60785943}
+    m_Target: {x: 0.010094701, y: -0.72047067, z: -0.010676993, w: -0.6934332}
     speed: 2
-    m_Value: {x: 0.09902274, y: 0.7803043, z: -0.12770174, w: 0.60416234}
+    m_Value: {x: 0.017427374, y: -0.7181842, z: -0.018188743, w: -0.695397}
   m_Size:
-    m_Target: 10.302782
+    m_Target: 15.131591
     speed: 2
-    m_Value: 10.788254
+    m_Value: 15.844598
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -600,14 +600,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Rairokul\horror
+  m_LastProjectPath: C:\Users\KioshiMayFire\Documents\GitHub\Horror\horror
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 42370000
-    m_LastClickedID: 14146
-    m_ExpandedIDs: 00000000423700001262010018620100
+    m_SelectedIDs: 20ee0000
+    m_LastClickedID: 60960
+    m_ExpandedIDs: 0000000020ee0000aaf00000e0f1000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -635,7 +635,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000020ee0000aaf00000e0f10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -662,7 +662,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300006ea8000044d40100d60d0000943200001a360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

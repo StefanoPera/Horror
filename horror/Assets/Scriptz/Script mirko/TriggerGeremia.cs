@@ -8,6 +8,7 @@ public class TriggerGeremia : MonoBehaviour
     public RuntimeAnimatorController anim;
     public GameObject geremia;
     public GameObject trigger;
+    public GameObject porta;
 
     void OnTriggerEnter()
     {
@@ -21,6 +22,7 @@ public class TriggerGeremia : MonoBehaviour
     {
         yield return new WaitForSeconds(2.0f);
         geremia.SetActive(false);
+        porta.GetComponent<Animation>().Play("AnimApriPorta");
         trigger.SetActive(false);
     }
 }

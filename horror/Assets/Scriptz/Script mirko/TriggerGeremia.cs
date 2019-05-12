@@ -18,6 +18,11 @@ public class TriggerGeremia : MonoBehaviour
         StartCoroutine(AddiosGeremia());
     }
 
+    void OnTriggerExit()
+    {
+        trigger.GetComponent<BoxCollider>().enabled = false;
+    }
+
     IEnumerator AddiosGeremia()
     {
         yield return new WaitForSeconds(2.0f);

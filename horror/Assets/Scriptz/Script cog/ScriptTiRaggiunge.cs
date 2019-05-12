@@ -8,20 +8,19 @@ public class ScriptTiRaggiunge : MonoBehaviour
     private float tuaMamma = 0.6f;
     public GameObject cameraPlayer, cameraJumpScare;
 
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
         distance = apriPorte.distanceFromTarget;
 
-        if (distance <= tuaMamma) {
+    }
+
+    void OnMouseOver()
+    {
+        if (distance <= tuaMamma)
+        {
             cameraPlayer.SetActive(false);
             cameraJumpScare.SetActive(true);
         }
-
     }
 }

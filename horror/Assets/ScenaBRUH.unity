@@ -2308,6 +2308,8 @@ MonoBehaviour:
   distance: 0
   cameraPlayer: {fileID: 82238688}
   cameraJumpScare: {fileID: 426687204}
+  canvasJumpScare: {fileID: 959433418}
+  jumpScare: {fileID: 2139445638}
 --- !u!65 &925617101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4313,7 +4315,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139445636}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e3caabe2665fa5f429169f90d4e12352, type: 3}

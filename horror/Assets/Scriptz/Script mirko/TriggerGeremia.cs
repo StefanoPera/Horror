@@ -26,7 +26,7 @@ public class TriggerGeremia : MonoBehaviour
     IEnumerator AddiosGeremia()
     {
         yield return new WaitForSeconds(2.0f);
-        geremia.SetActive(false);
+        Destroy(geremia);
         porta.GetComponent<Animation>().Play("AnimApriPorta");
         trigger.SetActive(false);
     }
